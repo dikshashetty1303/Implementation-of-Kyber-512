@@ -28,7 +28,6 @@ This project demonstrates the feasibility of deploying post-quantum cryptography
   - Keccak-f[1600] permutation
   - SHAKE128 absorb/squeeze
   - Number Theoretic Transform (NTT) and Inverse NTT
-  - Binomial noise sampler
   - Key encapsulation flow
 - Static memory allocation to avoid runtime failures
 - Precomputed zeta tables for optimized NTT operations
@@ -75,14 +74,16 @@ The implementation draws from the official [PQClean Kyber Reference](https://git
 ## 💡 Future Scope
 
 - Add IND-CCA secure variants using full API
-- Hardware acceleration (e.g., ARM CryptoCell or STM32 crypto units)
+- Hardware acceleration
 - Integration with automotive ECUs and IoT bootloaders
 - Enhanced PRNG using TRNG or external entropy source
 - Real-time tamper detection and side-channel resistance
 
-## 📄 License
-
-This project is released for academic and educational use only. Refer to the LICENSE file for details.
+Other Team Members
+Sanjana V Hosmath
+Pramod Chalageri
+Haripriya P M
+Rashmi V
 
 ---
 
